@@ -4,4 +4,5 @@ import AllRouterLoader from './common/AllRouterLoader'
 
 const app = new Koa()
 const router = new Router()
+
 AllRouterLoader.init(app)
